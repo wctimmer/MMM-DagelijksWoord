@@ -1,0 +1,13 @@
+.MMM-DagelijksWoord-verse {
+  color: var(--color-text-bright);
+}
+
+.MMM-DagelijksWoord-source {
+  color: var(--color-text);
+}
+
+.MMM-DagelijksWoord-donation {
+  font-size: 75%;
+  font-weight: bold;    
+  color: #ff8e99;
+}

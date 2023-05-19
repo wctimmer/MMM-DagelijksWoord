@@ -1,0 +1,22 @@
+{
+  "name": "MMM-DagelijksWoord",
+  "version": "0.0.1",
+  "description": "Magic mirror module which displays a dutch Bible verse of the day",
+  "main": "MMM-DagelijksWoord.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wctimmer/MMM-DagelijksWoord.git"
+  },
+  "author": "Wim Timmer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wctimmer/MMM-DagelijksWoord/issues"
+  },
+  "homepage": "https://github.com/wctimmer/MMM-DagelijksWoord#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
