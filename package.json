@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/wctimmer/MMM-DagelijksWoord#readme",
   "dependencies": {
-    "request": "^2.83.0"
   }
 }

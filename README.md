@@ -9,8 +9,7 @@ todo: add image here
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder 
 2. Execute `git clone https://github.com/wctimmer/MMM-DagelijksWoord.git`
-3. Navigate to newly created folder `MMM-DagelijksWoord`
-4. Execute `npm install`
+
 
 ## Using the module
 

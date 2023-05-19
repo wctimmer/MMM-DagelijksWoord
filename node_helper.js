@@ -7,7 +7,7 @@
  */
 
 var NodeHelper = require("node_helper");
-var request = require('request');
+const https = require('https');
 
 module.exports = NodeHelper.create({
 	// Subclass start method.
@@ -18,10 +18,28 @@ module.exports = NodeHelper.create({
 
 	socketNotificationReceived: function(notification, config) {
 		var self = this;
-		var url = 'https://' + config.username + ':' + config.password + '@feed.dagelijkswoord.nl/api/json/1.0/';
-		request({ url: url, method: 'GET' }, function(error, response, body) {			
-			if(!error && response.statusCode == 200){;
-				var data = JSON.parse(body);
+        var options = {
+           host: 'feed.dagelijkswoord.nl',
+           port: 443,
+           path: '/api/json/1.0/',
+           // authentication headers
+           headers: {
+              'Authorization': 'Basic ' + new Buffer.from(config.username + ':' + config.password).toString('base64')
+           }   
+        };
+        
+        https.get(options, function(resp){
+
+            let body = '';
+
+            // A chunk of data has been received.
+            resp.on('data', (chunk) => {
+                body += chunk;
+            });
+
+            // The whole response has been received. Print out the result.
+            resp.on('end', () => {
+                var data = JSON.parse(body);
                 var result = {}; // create empty result
                 
                 // select right translation                               
@@ -43,7 +61,11 @@ module.exports = NodeHelper.create({
                 
                 
 				self.sendSocketNotification('DAGELIJKS_WOORD_RESULT', result);
-			}
-		});	
+            });
+
+       }).on("error", (err) => {
+           console.log("Error: " + err.message);
+       });
+  
 	},
 });
