@@ -1,4 +1,4 @@
-# MMM-DailyBibleVerse
+# MMM-Dagelijkswoord
 This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It will display the verse of the day from [www.dagelijkswoord.nl](www.dagelijkswoord.nl). You can change the translation of the verse in the config file. 
 
 ## Language and credits
