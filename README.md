@@ -1,4 +1,4 @@
-# MMM-Dagelijkswoord
+# MMM-DagelijksWoord
 This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It will display the verse of the day from [www.dagelijkswoord.nl](www.dagelijkswoord.nl). You can change the translation of the verse in the config file. 
 
 ## Language and credits
@@ -45,15 +45,15 @@ The following properties can be configured:
 			<td><code>translation</code></td>
 			<td>
                 <ul>
-                    <li>**nbv** Nieuwe Bijbelvertaling"</li>
-                    <li>**nbg** NBG51</li>
-                    <li>**statenvertaling** Statenvertaling</li>
-                    <li>**willibrord** Willibrord</li>
-                    <li>**hsv** Herziene Statenvertaling</li>
-                    <li>**naardense** Naardense Bijbel</li>
-                    <li>**bgt** Bijbel in Gewone Taal</li>
-                    <li>**nbg21** NBV21 **default**</li>
-                    <li>**bb** BasisBijbel</li>
+                    <li><strong>nbv</strong> Nieuwe Bijbelvertaling"</li>
+                    <li><strong>nbg</strong> NBG51</li>
+                    <li><strong>statenvertaling</strong> Statenvertaling</li>
+                    <li><strong>willibrord</strong> Willibrord</li>
+                    <li><strong>hsv</strong> Herziene Statenvertaling</li>
+                    <li><strong>naardense</strong> Naardense Bijbel</li>
+                    <li><strong>bgt</strong> Bijbel in Gewone Taal</li>
+                    <li><strong>nbg21</strong> NBV21 <strong>default</strong></li>
+                    <li><strong>bb</strong> BasisBijbel</li>
                 </ul>
             </td>
 		</tr>
