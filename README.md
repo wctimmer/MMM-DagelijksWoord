@@ -4,7 +4,8 @@ This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror)
 ## Language and credits
 This module is inspired by and based on the module [MMM-DailyBibleVerse](https://github.com/arthurgarzajr/MMM-DailyBibleVerse/blob/master/README.md) by [arthurgarzajr](https://github.com/arthurgarzajr). The module shows only dutch verses. For other languages than dutch use MMM-DailyBibleVerse. on the first non-Sunday between Christmas and the New Year, the module displays additional text requesting donations for [www.dagelijkswoord.nl](www.dagelijkswoord.nl).
 
-todo: add image here
+## Screenshot
+![Screenshot](/images/screenshot.png)
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder 
@@ -45,15 +46,15 @@ The following properties can be configured:
 			<td><code>translation</code></td>
 			<td>
                 <ul>
-                    <li><strong>nbv</strong> Nieuwe Bijbelvertaling"</li>
-                    <li><strong>nbg</strong> NBG51</li>
-                    <li><strong>statenvertaling</strong> Statenvertaling</li>
-                    <li><strong>willibrord</strong> Willibrord</li>
-                    <li><strong>hsv</strong> Herziene Statenvertaling</li>
-                    <li><strong>naardense</strong> Naardense Bijbel</li>
-                    <li><strong>bgt</strong> Bijbel in Gewone Taal</li>
-                    <li><strong>nbg21</strong> NBV21 <strong>default</strong></li>
-                    <li><strong>bb</strong> BasisBijbel</li>
+                    <li><code>nbv</code> Nieuwe Bijbelvertaling</li>
+                    <li><code>nbg</code> NBG51</li>
+                    <li><code>statenvertaling</code> Statenvertaling</li>
+                    <li><code>willibrord</code> Willibrord</li>
+                    <li><code>hsv</code> Herziene Statenvertaling</li>
+                    <li><code>naardense</code> Naardense Bijbel</li>
+                    <li><code>bgt</code> Bijbel in Gewone Taal</li>
+                    <li><code>nbg21</code> NBV21 <strong>default</strong></li>
+                    <li><code>bb</code> BasisBijbel</li>
                 </ul>
             </td>
 		</tr>
