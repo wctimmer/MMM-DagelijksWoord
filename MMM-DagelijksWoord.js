@@ -10,7 +10,7 @@ Module.register("MMM-DagelijksWoord", {
   // Default module config.
   result: [],
   defaults: {
-    translation: "nbg21"
+    translation: "nbg21",
   },
 
   start: function () {
