@@ -48,9 +48,9 @@ Module.register("MMM-DagelijksWoord", {
         labelSource.innerHTML = this.source;
 		labelSource.classList.add(this.name+"-source");	
 		
-        wrapper.appendChild(wrapperVerse);
         wrapper.appendChild(labelSource);
-	    
+        wrapper.appendChild(wrapperVerse);
+        
         //show donation text on donation request day
         if (this.donationDay()) { // only on donation request day (monday after christmas)
             var wrapperDonation = document.createElement("div");
