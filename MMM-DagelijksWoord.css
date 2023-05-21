@@ -1,16 +1,16 @@
-.MMM-DagelijksWoord-verse {
+.dagelijkswoord-verse {
   color: var(--color-text-bright);
   font-size: var(--font-size-medium);
   font-weight: 200;
 }
 
-.MMM-DagelijksWoord-source {
+.dagelijkswoord-source {
   color: var(--color-text);
   font-size: var(--font-size-medium);
 }
 
-.MMM-DagelijksWoord-donation {
+.dagelijkswoord-donation {
   font-size: var(--font-size-xsmall);
   font-weight: bold;    
-  color: #ff8e99; --red
+  color: #ff8e99; 
 }  

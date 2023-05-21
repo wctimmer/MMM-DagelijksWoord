@@ -4,8 +4,11 @@
   "description": "Magic mirror module which displays a dutch Bible verse of the day",
   "main": "MMM-DagelijksWoord.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+	    "lint:prettier": "prettier . --write",
+		"lint:js": "eslint '*.js' --config .eslintrc.json --fix",
+		"lint:css": "stylelint '*.css' --config .stylelintrc.json --fix",
+		"lint:staged": "pretty-quick --staged"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wctimmer/MMM-DagelijksWoord.git"
