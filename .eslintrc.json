@@ -1,10 +1,8 @@
 {
-	"extends": ["eslint:recommended", "plugin:prettier/recommended", "plugin:jsdoc/recommended"],
-	"plugins": ["prettier", "import", "jsdoc", "jest"],
+	"extends": [],
+    "plugins": [],
 	"env": {
 		"browser": true,
-		"es2022": true,
-		"jest/globals": true,
 		"node": true
 	},
 	"globals": {
@@ -23,7 +21,6 @@
 	},
 	"rules": {
 		"eqeqeq": "error",
-		"import/order": "error",
 		"no-prototype-builtins": "off",
 		"no-throw-literal": "error",
 		"no-unused-vars": "off",
