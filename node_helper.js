@@ -42,9 +42,17 @@ module.exports = NodeHelper.create({
         resp.on("end", () => {
           var data = JSON.parse(body);
           var result = {}; // create empty result
-
+          // find right index
+          const now = new Date(Date.now());
+          const date = now.toISOString().substring(0, 10);
+          let index = 0; // default to first index
+          for (let i = 0; i < data.data.length; i++) {
+              console.log(data.data[i].ts + " / " + date);
+              if (data.data[i].ts === date)
+                  index = i;
+          }
           // select right translation
-          var verses = data.data[0].text;
+          var verses = data.data[index].text;
           result.verse = null;
           for (var key in verses) {
             if (key === config.translation.toLowerCase()) {
