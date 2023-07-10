@@ -47,7 +47,6 @@ module.exports = NodeHelper.create({
           const date = now.toISOString().substring(0, 10);
           let index = 0; // default to first index
           for (let i = 0; i < data.data.length; i++) {
-              console.log(data.data[i].ts + " / " + date);
               if (data.data[i].ts === date)
                   index = i;
           }
