@@ -21,7 +21,7 @@ modules: [
 		module: 'MMM-DagelijksWoord',
 		position: 'bottom_bar',	// This can be any of the regions. Best result is in the bottom_bar as verses can take multiple lines in a day.
 		config: {
-			version: 'nbg21', // This can be changed to any translation you want
+			version: 'nbv21', // This can be changed to any translation you want
             username: '***@***.***', //emailadress known by www.dagelijkswoord.nl
             password: '***'  //key received from www.dagelijkswoord.nl
 		}
@@ -53,7 +53,7 @@ The following properties can be configured:
                     <li><code>hsv</code> Herziene Statenvertaling</li>
                     <li><code>naardense</code> Naardense Bijbel</li>
                     <li><code>bgt</code> Bijbel in Gewone Taal</li>
-                    <li><code>nbg21</code> NBV21 <strong>default</strong></li>
+                    <li><code>nbv21</code> NBV21 <strong>default</strong></li>
                     <li><code>bb</code> BasisBijbel</li>
                 </ul>
             </td>
